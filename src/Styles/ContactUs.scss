@@ -1,0 +1,132 @@
+.contact-us {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    background-image: url(../images/contact-background.avif);
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.351);
+    background-attachment: fixed;
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .contact-page {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 80vw;
+      
+
+
+        .contact-left {
+            color: #fff;
+            min-height: 70vh;
+            padding-top: 15vh;
+            padding-right: 5vw;
+
+            .left-header {
+                max-width: 30vw;
+                font-size: 2rem;
+                padding-bottom: 2rem;
+            }
+
+            .left-list {
+                font-size: 1.2rem;
+                font-weight: bold;
+                margin-bottom: 2rem;
+            }
+
+            .contact-links {
+                max-width: 30vw;
+                display: grid;
+                grid-template-columns: repeat(5, auto);
+            }
+        }
+
+
+        .contact-form {
+            // background-color: #b6a799;
+            // background-color: #f1ece1;
+            
+            background-color: rgba(28, 27, 27, 0.35);
+            border: 1px solid rgb(124, 124, 124);
+
+            min-height: 70vh;
+            min-width: 50%;
+            display:flex;
+            flex-direction: column;
+            padding-inline: 1rem;
+            border-radius: 20px;
+            
+        }
+
+        .contact-for-header {
+            min-width: 100%;
+            margin-top: 2rem;
+            text-align: center;
+            font-size:2rem;
+
+        }
+
+        #inp-gmail {
+            margin-top: 1vh; 
+            text-decoration: none;
+            border: none;
+            border-bottom: 1px solid black;
+            min-width: 100%;
+            min-height: 2.5vh;
+            text-align: center;
+        }
+        
+        .input-name {
+            min-height: 20px;
+            min-width: 40vw;
+            max-width: 50vw;
+           margin-top: 5vh;
+           text-align: left;
+
+           .inp-name {
+            text-decoration: none;
+            border: none;
+            border-bottom: 1px solid black;
+            min-width: 100%;
+            min-height: 2.5vh;
+            text-align: center;
+           }
+        }
+
+        .input-message {
+            margin-top: 3vh;
+            min-height: 30vh;
+            border-radius: 4px;
+            font-size: 1rem;
+            border-radius: 5px;
+        }
+        
+        .button-container {
+            min-height: 5vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
+        .btn-send {
+            min-width: 150px;
+            max-width: 150px;
+            min-height: 30px;
+            border: 1px solid black;
+            background-color: #fffaf8;
+            position: relative;
+            text-align: center;
+            margin-top: 2vh;
+        }
+
+      
+    }
+
+
+}
+
+

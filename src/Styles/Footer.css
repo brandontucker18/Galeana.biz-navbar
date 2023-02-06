@@ -1,0 +1,45 @@
+.Footer {
+    background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+    color: #fff;
+    min-height: 12vh;
+    min-width: 100vw;
+}
+
+.Footer-logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 8vh;
+    min-height:4vh;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.Footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    max-height: 16vh;
+    min-height:8vh;
+}
+
+.link-websites {
+    max-width:45vw;
+    min-width: 10vw;
+    display: grid;
+    padding-right: 3vw;
+}
+
+.link-contact {
+    max-width:45vw;
+    min-width: 10vw;
+    display: grid;
+    padding-left: 3vw;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+}

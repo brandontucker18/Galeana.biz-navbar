@@ -1,29 +1,22 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import ContactUs from './components/pages/ContactUs';
-import SignUp from './components/pages/SignUp';
-import Home from './components/pages/Home';
-import Marketing from './components/pages/Marketing';
-import Consulting from './components/pages/Consulting';
-
+import "./App.css";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Products from "./pages/Products";
+import Updates from "./pages/Updates";
+import ContactUs from "./pages/ContactUs";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <Router>
-     <Navbar />
+      <Navbar />
 
-     <Routes>
-      <Route path="/" exact component={Home} />
-      <Route path="/services" exact component={Services} />
-      <Route path="/products" exact component={Products} />
-      <Route path="/contact-us" exact component={ContactUs} />
-      <Route path="/sign-up" exact component={SignUp} />
-      <Route path="/marketing" exact component={Marketing} />
-      <Route path="/consulting" exact component={Consulting} />
-    </Routes>
+      <Routes>
+        <Route path="/" exact element={<Home />} />
+        <Route path="/products" exact element={<Products />} />
+        <Route path="/Updates" exact element={<Updates />} />
+        <Route path="/contact-us" exact element={<ContactUs />} />
+      </Routes>
     </Router>
   );
 }
